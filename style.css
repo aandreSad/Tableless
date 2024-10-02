@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+#geral{
+    margin: 10px auto;
+    width: 650px;
+    height: auto;
+    text-align: left;
+    background-color: red;
+    border: 1px solid black;
+}
+
+#topo{
+    height: 45px;
+    background-color: fuchsia;
+    margin-top:  -15px;
+    background-image: url(https://imgs.search.brave.com/VQZ30HAOH5trwb8gfStxzGtgZsQ2CsBdxMzI8E3ERSE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/bnNjdG90YWwuY29t/LmJyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDI0LzA5L0RhdGVu/YS1hZ3JpZGUtUGFi/bG8tTWFyY2FsLWNv/bS1jYWRlaXJhZGEt/ZHVyYW50ZS1kZWJh/dGUtZW0tU2FvLVBh/dWxvLTIuanBn);
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    color: #fff;
+}
+
+#nav{
+    color: #272900;
+    background-color: #9FA41D;
+    padding: 2px 0;
+    margin-bottom: 22px;
+}
+
+#nav li{
+    display: inline;
+    padding: 0 10px;
+    border-right: 1px solid #C4C769;
+}
+
+#nav a{
+    text-decoration: none;
+    color: #272900;
+}
+
+#nav a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu{
+    float: right;
+    background-color: yellow;
+    height: auto;
+    width: 180px;
+}
+
+#conteudo{
+    margin-right: 200px;
+    margin-left: 20px;
+    height: auto;
+    background-color: aqua;
+}
+
+#rodape{
+    display: flex;
+    clear: both;
+    height: auto;
+    background-color: lime;
+    justify-content: center;
+}
+
+body{
+    background-color: #D6D6D6;
+    text-align: center;
+}
+
+h2{
+    color: #B52C07;
+    font: 120%;
+    font-weight: bold;
+}
+
+p{
+    color: #5B5E0E;
+    font: 106%;
+}
